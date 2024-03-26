@@ -1,4 +1,4 @@
-.header {
+/* .header {
     width: 100vw;
     background-color: #FEECE2;
     height: 70px;
@@ -25,5 +25,32 @@
 .menu-options:hover {
     cursor: pointer;
     text-decoration: underline;
+} */
+
+.navbar {
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
+.brand-logo {
+    padding: 3px;
+    margin: 2px;
+    margin-right: 0.8rem;
+}
+
+.img-brand {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.nav-link {
+    color: #6e090f !important;
+    font-size: inherit;
+    transition: 1s ease;
+}
+
+.nav-link:hover {
+    color: #6e0910aa !important;
+    font-size: 1.3rem;
+}
