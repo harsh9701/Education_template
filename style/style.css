@@ -1,4 +1,3 @@
-
 .navbar {
     color: #000000;
     font-weight: 700;
@@ -66,3 +65,55 @@
   }
   
 
+
+/* ------Content body CSS------ */
+
+.section-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 345px;
+}
+
+.sec1-text {
+    font-size: 3.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 4rem;
+}
+
+.biggest {
+    color: #6e090f;
+}
+
+.sign-up-button button {
+    font-size: 1.2rem;
+    color: #6e090f;
+    font-size: 1.5rem;
+    background-color: #661e247b;
+    padding: 10px 35px;
+    width: max-content;
+    border: 0;
+    border-radius: 15px;
+    line-height: normal;
+}
+
+.sign-up-button button:hover {
+    background-color: #6e090f;
+    color: #ffffff;
+}
+
+
+/* ----------CSS for Responsive------------ */
+@media (max-width: 620px) {
+
+    .sec1-img img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .sec1-text {
+        font-size: 2.8rem;
+        line-height: 3.2rem;
+    }
+    
+}

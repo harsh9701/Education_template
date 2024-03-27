@@ -11,9 +11,10 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position:sticky;">
     <div class="container-fluid">
-        <span class="brand-logo"><a href="#"><img src="assets/favicon.png" class="img-brand"></a></span>
+      <span class="brand-logo"><a href="#"><img src="assets/favicon.png" class="img-brand"></a></span>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -59,15 +60,38 @@
       </div>
       </div>
     </nav>
-    <div class="slider-container">
-      <div class="slider">
-        <img src="/Education_template/img/img1.webp" alt="Image 1">
-        <img src="/Education_template/img/img2.jpg" alt="Image 2">
-        <img src="/Education_template/img/img3.webp" alt="Image 3">
+   
+ 
+
+  <!-- main body -->
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/Education_template/assets/img1.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/Education_template/assets/img2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/Education_template/assets/img3.webp" class="d-block w-100" alt="...">
       </div>
     </div>
-    
- 
+  </div>
+
+
+  <main class="container-lg">
+    <div class="section-1">
+      <div class="sec1-text">
+        <span class="text1">Bharat's <span class="biggest">Biggest</span><br>Education Platform</span>
+        <div class="sign-up-button"><button>Contact Us</button></div>
+      </div>
+      <div class="sec1-img">
+        <img src="assets/boy.png" alt="">
+      </div>
+
+    </div>
+  </main>
 
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
