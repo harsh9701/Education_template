@@ -5,16 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Education Site</title>
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
-  
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position:sticky;">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <span class="brand-logo"><a href="#"><img src="assets/favicon.png" class="img-brand"></a></span>
+      <span class="brand-logo"><a href="#"><img src="/assets/favicon.png" class="img-brand"></a></span>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -58,42 +60,144 @@
           <button class="signup-btn">Signup</button>
         </div>
       </div>
-      </div>
-    </nav>
-   
- 
+    </div>
+  </nav>
+
+
 
   <!-- main body -->
 
+  <!-- carousel -->
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/Education_template/assets/img1.webp" class="d-block w-100" alt="...">
+        <img src="/assets/img1.webp" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="/Education_template/assets/img2.jpg" class="d-block w-100" alt="...">
+        <img src="/assets/img2.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="/Education_template/assets/img3.webp" class="d-block w-100" alt="...">
+        <img src="/assets/img3.webp" class="d-block w-100" alt="...">
       </div>
     </div>
   </div>
 
 
   <main class="container-lg">
+    <!-- Section 1 -->
     <div class="section-1">
       <div class="sec1-text">
         <span class="text1">Bharat's <span class="biggest">Biggest</span><br>Education Platform</span>
         <div class="sign-up-button"><button>Contact Us</button></div>
       </div>
       <div class="sec1-img">
-        <img src="assets/boy.png" alt="">
+        <img src="/assets/boy.png" alt="">
       </div>
+    </div>
 
+    <!-- Section 2 (Exam Category)-->
+    <div class="container-lg" style="margin-top: 50px;">
+      <div class="d-flex flex-column align-items-center lh-sm">
+        <div class="fs-1 fw-bolder">Exam Category</div>
+        <div class="fs-6 fst-italic">Pick any one course</div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-4 card">
+          <div class="inner-card">
+            <div class="card-title">Academy</div>
+            <div class="card-btn">
+              <button>9th</button>
+              <button>10th</button>
+              <button>11th</button>
+              <button>12th</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 card">
+          <div class="inner-card">
+            <div class="card-title">Competitive Exams</div>
+            <div class="card-btn">
+              <button>SSC</button>
+              <button>BANK</button>
+              <button>CS</button>
+              <button>CSS</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 card">
+          <div class="inner-card">
+            <div class="card-title">Free Demo Classes</div>
+            <div class="card-btn">
+              <button>SSC</button>
+              <button>PO</button>
+              <button>11th</button>
+              <button>12th</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3 (Study Resources) -->
+
+    <div class="container-lg" style="margin-top: 50px;">
+      <div class="d-flex flex-column align-items-center lh-sm">
+        <div>
+          <span class="fs-1 fw-bolder">Study Resources</span>
+          <span class="study-res-img"><img src="/assets/books.gif" alt=""></span>
+        </div>
+        <div class="fs-6 fst-italic">A diverse array of learning materials to enhance your educational journey</div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-4 card">
+            <div class="d-flex flex-column align-items-start">
+              <div class="card-title d-flex justify-content-between" style="width: 100%;">
+                <span>Notes</span>
+                <span><i class="fa-solid fa-arrow-right-long fs-5"></i></span>
+              </div>
+              <div class="card-content">
+                <p>Use Physics Wallah’s detailed study materials that simplify complex ideas into easily understandable
+                  language</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 card">
+            <div class="d-flex flex-column align-items-start">
+              <div class="card-title d-flex justify-content-between" style="width: 100%;">
+                <span>Reference Books</span>
+                <span><i class="fa-solid fa-arrow-right-long fs-5"></i></span>
+              </div>
+              <div class="card-content">
+                <p>Our experts have created thorough study materials that break down complicated concepts into easily
+                  understandable content</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 card">
+            <div class="d-flex flex-column align-items-start">
+              <div class="card-title d-flex justify-content-between" style="width: 100%;">
+                <span>NCERT Solutions</span>
+                <span><i class="fa-solid fa-arrow-right-long fs-5"></i></span>
+              </div>
+              <div class="card-content">
+                <p>Unlock academic excellence with Physics Wallah’s NCERT Solutions which provides you step-by-step
+                  solutions</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 
-  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Footer Section -->
+
+  <footer class="card-footer text-muted">
+    <div class="text-center">All Right Reserverd 2024</div>
+    <div class="text-center">Created By Nishant & Harsh</div>
+  </footer>
+
+  <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
