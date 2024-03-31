@@ -20,7 +20,8 @@
     font-size: 16px;
     transition: transform 0.3s ease;
 }
-.select-font{
+
+.select-font {
     color: #6e090f !important;
     font-weight: 500;
 }
@@ -33,37 +34,73 @@
 
 .login-btn,
 .signup-btn {
-  font-weight: 700;  
-  border: 2px solid #6e090f;
-  background-color: #6e090f;
-  color: white;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 20px;
-  transition: all 0.3s ease;
+    font-weight: 700;
+    border: 2px solid #6e090f;
+    background-color: #6e090f;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.3s ease;
 }
 
 .login-btn:hover,
 .signup-btn:hover {
-  background-color: white; /* White background on hover */
-  color: #000000; /* Green text on hover */
+    background-color: white;
+    /* White background on hover */
+    color: #000000;
+    /* Green text on hover */
+}
+
+/* home tutorial banner */
+.background {
+    background-image: url('/Education_template/assets/brooke-cagle-g1Kr4Ozfoac-unsplash.webp');
+    /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover;
+    /* Ensures the background image covers the entire container */
+    background-position: center;
+    /* Centers the background image */
+    height: 100vh;
+    /* Set the height to the viewport height */
+}
+
+.container {
+    background-image: url(/Education_template/assets/brooke-cagle-g1Kr4Ozfoac-unsplash.web);
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.custom-radio {
+    display: block;
+    background-color: #e9ecef;
+    /* Background color */
+    border-radius: 5px;
+    /* Rounded corners */
+    margin-bottom: 10px;
+    /* Vertical gap between radio buttons */
+    padding: 10px;
+}
+
+.custom-radio input[type="radio"] {
+    margin-right: 10px;
+    /* Horizontal gap between radio button and label */
 }
 
 .slider-container {
     width: 100%;
     overflow: hidden;
-  }
-  
-  .slider {
+}
+
+.slider {
     display: flex;
     transition: transform 0.5s ease;
-  }
-  
-  .slider img {
+}
+
+.slider img {
     width: 100%;
-  }
-  
+}
+
 
 
 /* ------Content body CSS------ */
@@ -128,7 +165,7 @@
     padding: 20px;
     font-size: x-large;
     font-weight: 500;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .card-btn {
@@ -147,7 +184,7 @@
 }
 
 .card-content p {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
 }
 
@@ -164,5 +201,5 @@
         font-size: 2.8rem;
         line-height: 3.2rem;
     }
-    
+
 }
