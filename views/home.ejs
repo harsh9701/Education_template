@@ -14,56 +14,8 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <span class="brand-logo"><a href="#"><img src="favicon.png" class="img-brand"></a></span>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Academy
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item select-font" href="#">9th</a></li>
-              <li><a class="dropdown-item select-font" href="#">10th</a></li>
-              <li><a class="dropdown-item select-font" href="#">11th</a></li>
-              <li><a class="dropdown-item select-font" href="#">12th</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home Tutorial</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Counselling
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item select-font" href="#">Admission</a></li>
-              <li><a class="dropdown-item select-font" href="#">Jobs</a></li>
-            </ul>
-          </li>
-        </ul>
-        <div>
-          <button class="login-btn">Login</button>
-          <button class="signup-btn">Signup</button>
-        </div>
-      </div>
-    </div>
-  </nav>
-
-
+  <!-- Header Section -->
+  <%- include("includes/header.ejs") %>
 
   <!-- main body -->
 
@@ -230,13 +182,7 @@
 
 
   <!-- Footer Section -->
-
-  <footer class="card-footer text-muted">
-    <div class="text-center">All Right Reserverd 2024</div>
-    <div class="text-center">Created By Nishant & Harsh</div>
-  </footer>
-
-  <script src="/bootstrap.bundle.min.js"></script>
+  <%- include("includes/footer.ejs") %>
 </body>
 
 </html>
