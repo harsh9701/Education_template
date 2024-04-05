@@ -1,3 +1,4 @@
+
 .navbar {
     color: #000000;
     font-weight: 700;
@@ -54,26 +55,53 @@
 }
 
 /* home tutorial banner */
-.background {
-    background-image: url('/Education_template/assets/brooke-cagle-g1Kr4Ozfoac-unsplash.webp');
-    /* Replace 'your-image.jpg' with the path to your image */
+.container{
+ display: flex;
+ background-size: cover;
+ background-position: center;
+ background-color: #23bb68;
+}
+
+.bgr2 {
+    background-image: url('brooke-cagle-g1Kr4Ozfoac-unsplash.webp'); /* Replace 'your-image-url.jpg' with the path to your image */
     background-size: cover;
-    /* Ensures the background image covers the entire container */
     background-position: center;
-    /* Centers the background image */
-    height: 100vh;
-    /* Set the height to the viewport height */
+    padding: 20px; /* Add padding to create some space around the content */
+    color: white; /* Set text color to ensure visibility */
+    border: 1px solid #6e090f;
+    border-radius: 30px;
+}
+h1,h3,p{
+    text-align: center;
+}
+.section-2 {
+    background-image: url('brooke-cagle-g1Kr4Ozfoac-unsplash.webp'); /* Replace 'your-image-url.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    padding: 20px; /* Add padding to create some space around the content */
+    color: white; /* Set text color to ensure visibility */
+    margin-top: 94px;
+    background-color: #6e090f;
+    border: #6e090f;
+    border: 1px solid #6e090f;
+    border-radius: 30px;
 }
 
-.container {
-    background-image: url(/Education_template/assets/brooke-cagle-g1Kr4Ozfoac-unsplash.web);
-    background-color: #ffffff;
-    border-radius: 10px;
+.row{
+    margin-block: -22px;
+    padding-block: 68px;
+    padding-right: 68px;
+    padding-left: 68px;
+    border-radius: 2px solid 6e090f;
 }
-
+.submitbtn{
+    margin-top: 32px;
+    height: 44px;
+    border-radius: 18px;
+}
 .custom-radio {
     display: block;
-    background-color: #e9ecef;
+    background-color: #6e090f;
     /* Background color */
     border-radius: 5px;
     /* Rounded corners */
