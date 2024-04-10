@@ -12,15 +12,15 @@ app.set("views", path.join(__dirname, "/views"));
 
 app.get("/", (req, res) => {
     res.render("home.ejs");
-})
+});
 
 app.get("/login", (req, res) => {
     res.send("this route will work");
-})
+});
 
 app.get("/signup", (req, res) => {
     res.render("signup.ejs");
-})
+});
 
 app.listen("8080", (err, res) => {
     console.log("Server is running on port 8080");
