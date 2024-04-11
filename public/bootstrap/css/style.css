@@ -154,6 +154,66 @@ h1,h3,p{
     border-radius: 10px;
     padding: 24px;
   }
+
+  /* FOR STUDENTS */
+  .card-header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+  }
+  .card-body {
+    background: linear-gradient(to right, #b3e9ff, #a6f6ff);
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+  }
+  .card-img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: auto;
+  }
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .btn-custom {
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .btn-custom:hover {
+    background-color: #eb6948;
+  }
+  .title-container {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .subtitle-container {
+    background: linear-gradient(to right, #b3e9ff, #a6f6ff);
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .normal-text {
+    font-weight: normal;
+  }
+
 /* ------Content body CSS------ */
 
 .section-1 {
