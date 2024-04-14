@@ -122,42 +122,129 @@ h1,h3,p{
 
 /* why perfect tutor */
 
-.card-header {
+.section-header {
     background: linear-gradient(to right, #ff7e5f, #feb47b);
     color: white;
     text-align: center;
     font-size: 28px;
     font-weight: bold;
     padding: 20px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
   }
-  .underline {
-    display: block;
-    margin: auto;
-    width: 50px;
-    height: 3px;
-    background-color: white;
-    margin-top: 10px;
+  .section-header:hover {
+    background: linear-gradient(to right, #eb6948, #ff9164);
   }
-  .card-subtitle {
-    background: linear-gradient(to right, #b3e9ff, #a6f6ff);
-    color: #333;
-    text-align: center;
-    font-size: 18px;
+  .card-body {
+    background: #f8f9fa;
     padding: 20px;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s;
+  }
+  .card-body:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
   .bullet-points {
-    list-style-type: decimal;
-    padding-left: 20px;
-    background: #f0f0f0;
-    border-radius: 10px;
-    padding: 24px;
+    list-style-type: none;
+    padding-left: 0;
   }
-
+  .bullet-points li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  .bullet-points li:before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    color: #ff7e5f;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  .card-body:hover .bullet-points li {
+    color: #555;
+  }
+  .card-body:hover .bullet-points li:before {
+    color: #eb6948;
+  }
+  .card-subtitle {
+    background: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+  }
+  .card-subtitle:hover {
+    background: #e5e5e5;
+  }
+  .underline {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: #ff7e5f;
+    transition: width 0.3s, background-color 0.3s;
+  }
+  .card-header:hover .underline {
+    width: 80%;
+    background: #eb6948;
+  }
+/* exam-category */
+.container-lg {
+    margin-top: 50px;
+  }
+  .exam-section {
+    text-align: center;
+  }
+  .exam-section .card {
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  .exam-section .card:hover {
+    transform: scale(1.05);
+  }
+  .exam-section .inner-card {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+  }
+  .exam-section .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .exam-section .card-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .exam-section .card-btn button {
+    padding: 10px 20px;
+    min-width: 120px; /* Fixed width for buttons */
+    border: none;
+    border-radius: 5px;
+    background-color: #6e090f;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .exam-section .card-btn button:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
   /* FOR STUDENTS */
   .card-header {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background: linear-gradient(to right, #6e090f, #feb47b);
     color: white;
     text-align: center;
     font-size: 28px;
@@ -193,7 +280,7 @@ h1,h3,p{
     background-color: #eb6948;
   }
   .title-container {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background: linear-gradient(to right, #6e090f, #feb47b);
     color: white;
     text-align: center;
     font-size: 24px;
@@ -213,6 +300,121 @@ h1,h3,p{
   .normal-text {
     font-weight: normal;
   }
+
+  /* Our Services */
+  .section-header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+  }
+  .section-header:hover {
+    background: linear-gradient(to right, #eb6948, #ff9164);
+  }
+  .service {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s;
+  }
+  .service:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  .service h3 {
+    color: #ff7e5f;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  .service:hover h3 {
+    color: #eb6948;
+  }
+  .service p {
+    color: #333;
+    transition: color 0.3s;
+  }
+  .service:hover p {
+    color: #555;
+  }
+  .service-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  .service:hover .service-img {
+    transform: scale(1.05);
+  }
+
+  /* study resouces */
+  .container-lg {
+    margin-top: 50px;
+}
+
+.study-header {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.study-res-img img {
+    width: 100px;
+    height: auto;
+}
+
+.card {
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgb(241, 250, 255);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-inner {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    color: #666;
+}
+
+.card-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('s1.webp');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    transition: transform 0.3s;
+}
+
+.card:hover .card-background {
+    transform: scale(1.05); /* Adjust the scale factor as needed */
+    filter: blur(3px); /* Optional: reduce blur on hover */
+}
+
 
 /* ------Content body CSS------ */
 
@@ -260,7 +462,7 @@ h1,h3,p{
 .card {
     padding: 10px;
     width: 327px;
-    height: 300px;
+    height: 406px;
     margin: 10px;
     border: 3px solid rgba(61, 59, 59, 0.388);
     border-radius: 10px;
