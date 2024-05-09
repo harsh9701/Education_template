@@ -1,0 +1,666 @@
+/* Header */
+.navbar {
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.dropdown .dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+    display: block;
+    margin-top: .125em;
+}
+
+.brand-logo {
+    padding: 3px;
+    margin: 2px;
+    margin-right: 0.8rem;
+}
+
+.img-brand {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.nav-link {
+    color: #6e090f !important;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+.select-font {
+    color: #6e090f !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #6e0910aa !important;
+    transform: scale(0.9);
+
+}
+
+.login-btn,
+.signup-btn {
+    font-weight: 700;
+    border: 2px solid #6e090f;
+    background-color: #6e090f;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+    background-color: white;
+    /* White background on hover */
+    color: #000000;
+    /* Green text on hover */
+}
+
+.bgr2 {
+    background-image: url('brooke-cagle-g1Kr4Ozfoac-unsplash.webp');
+    /* Replace 'your-image-url.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    /* Add padding to create some space around the content */
+    color: white;
+    /* Set text color to ensure visibility */
+    border: 1px solid #6e090f;
+    border-radius: 30px;
+}
+
+h1,
+h3,
+p {
+    text-align: center;
+}
+
+.section-2 {
+    background-image: url('brooke-cagle-g1Kr4Ozfoac-unsplash.webp');
+    /* Replace 'your-image-url.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    /* Add padding to create some space around the content */
+    color: white;
+    /* Set text color to ensure visibility */
+    margin-top: 94px;
+    background-color: #6e090f;
+    border: #6e090f;
+    border: 1px solid #6e090f;
+    border-radius: 30px;
+}
+
+.row-1 {
+    margin-block: -22px;
+    padding-block: 68px;
+    padding-right: 68px;
+    padding-left: 68px;
+    border-radius: 2px solid 6e090f;
+}
+
+.submitbtn {
+    margin-top: 32px;
+    height: 44px;
+    border-radius: 18px;
+}
+
+.custom-radio {
+    display: block;
+    background-color: #6e090f;
+    /* Background color */
+    border-radius: 5px;
+    /* Rounded corners */
+    margin-bottom: 10px;
+    /* Vertical gap between radio buttons */
+    padding: 10px;
+}
+
+.custom-radio input[type="radio"] {
+    margin-right: 10px;
+    /* Horizontal gap between radio button and label */
+}
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slider img {
+    width: 100%;
+}
+
+/* why perfect tutor */
+
+.section-header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+  }
+  .section-header:hover {
+    background: linear-gradient(to right, #eb6948, #ff9164);
+  }
+  .card-body {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s;
+  }
+  .card-body:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  .bullet-points {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .bullet-points li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  .bullet-points li:before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    color: #ff7e5f;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  .card-body:hover .bullet-points li {
+    color: #555;
+  }
+  .card-body:hover .bullet-points li:before {
+    color: #eb6948;
+  }
+  .card-subtitle {
+    background: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+  }
+  .card-subtitle:hover {
+    background: #e5e5e5;
+  }
+  .underline {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: #ff7e5f;
+    transition: width 0.3s, background-color 0.3s;
+  }
+  .card-header:hover .underline {
+    width: 80%;
+    background: #eb6948;
+  }
+/* exam-category */
+.container-lg {
+    margin-top: 50px;
+  }
+  .exam-section {
+    text-align: center;
+  }
+  .exam-section .card {
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  .exam-section .card:hover {
+    transform: scale(1.05);
+  }
+  .exam-section .inner-card {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+  }
+  .exam-section .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .exam-section .card-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .exam-section .card-btn button {
+    padding: 10px 20px;
+    min-width: 120px; /* Fixed width for buttons */
+    border: none;
+    border-radius: 5px;
+    background-color: #6e090f;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .exam-section .card-btn button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px 10px 0 0;
+}
+
+.underline {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.card-subtitle {
+    background: linear-gradient(to right, #b3e9ff, #a6f6ff);
+    color: #333;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.bullet-points {
+    list-style-type: decimal;
+    padding-left: 20px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    padding: 24px;
+  }
+  /* FOR STUDENTS */
+  .card-header {
+    background: linear-gradient(to right, #6e090f, #feb47b);
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+  }
+  .card-body {
+    background: linear-gradient(to right, #b3e9ff, #a6f6ff);
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+  }
+  .card-img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: auto;
+  }
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .btn-custom {
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .btn-custom:hover {
+    background-color: #eb6948;
+  }
+  .title-container {
+    background: linear-gradient(to right, #6e090f, #feb47b);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .subtitle-container {
+    background: linear-gradient(to right, #b3e9ff, #a6f6ff);
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .normal-text {
+    font-weight: normal;
+  }
+
+  /* Our Services */
+  .section-header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+  }
+  .section-header:hover {
+    background: linear-gradient(to right, #eb6948, #ff9164);
+  }
+  .service {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s;
+  }
+  .service:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  .service h3 {
+    color: #ff7e5f;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  .service:hover h3 {
+    color: #eb6948;
+  }
+  .service p {
+    color: #333;
+    transition: color 0.3s;
+  }
+  .service:hover p {
+    color: #555;
+  }
+  .service-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  .service:hover .service-img {
+    transform: scale(1.05);
+  }
+
+  /* study resouces */
+  .container-lg {
+    margin-top: 50px;
+}
+
+.study-header {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.study-res-img img {
+    width: 100px;
+    height: auto;
+}
+
+.card {
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgb(241, 250, 255);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-inner {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    color: #666;
+}
+
+.card-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('s1.webp');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    transition: transform 0.3s;
+}
+
+.card:hover .card-background {
+    transform: scale(1.05); /* Adjust the scale factor as needed */
+    filter: blur(3px); /* Optional: reduce blur on hover */
+}
+
+
+/* ------Content body CSS------ */
+
+.section-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 345px;
+}
+
+.sec1-text {
+    font-size: 3.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 4rem;
+}
+
+.biggest {
+    color: #6e090f;
+}
+
+.study-res-img img {
+    position: relative;
+    top: -10px;
+    width: 50px;
+    height: 70px;
+}
+
+.sign-up-button button {
+    font-size: 1.2rem;
+    color: #6e090f;
+    font-size: 1.5rem;
+    background-color: #661e247b;
+    padding: 10px 35px;
+    width: max-content;
+    border: 0;
+    border-radius: 15px;
+    line-height: normal;
+}
+
+.sign-up-button button:hover {
+    background-color: #6e090f;
+    color: #ffffff;
+}
+
+.card {
+    padding: 10px;
+    width: 327px;
+    height: 406px;
+    margin: 10px;
+    border: 3px solid rgba(61, 59, 59, 0.388);
+    border-radius: 10px;
+}
+
+.inner-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-title {
+    padding: 20px;
+    font-size: x-large;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-btn {
+    width: 80%;
+    height: 90%;
+}
+
+.card-btn button {
+    padding: 10px 30px;
+    background-color: #661e247b;
+    border: 20px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 500;
+    margin: 7px;
+}
+
+.card-content p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+/* Footer Design */
+.footer {
+    padding: 20px;
+}
+
+.list-unstyled {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.list-item li {
+    line-height: 45px;
+}
+
+.list-item li:hover {
+    line-height: 45px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.list-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ffffff;
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.list-unstyled li {
+    color: white;
+}
+
+.divider hr {
+    color: #a6f6ff;
+    border-bottom: 5px;
+}
+
+
+/* ----------CSS to make Responsive------------ */
+@media (max-width: 620px) {
+
+    .sec1-img img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .sec1-text {
+        font-size: 2.8rem;
+        line-height: 3.2rem;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .dropend:hover>.dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        margin-left: .125em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .dropend:hover>.dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 23%;
+        margin-left: .125em;
+    }
+}
+
+/* For modal */
+.modal {
+  display:none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
