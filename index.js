@@ -64,6 +64,9 @@ app.post("/login", async (req, res) => {
     }
 
     bcrypt.compare(user.password, isExistUser.password, (err, result) => {
+        if(err) {
+            res.send("Something went wrong");
+        }
         if(result) {
             let token = jwt.sign({ email: isExistUser.email }, "shhhhhhhhh");
             res.cookie("token", token);
@@ -80,7 +83,6 @@ app.get("/signup", (req, res) => {
 
 app.post("/signup", validateUser, async (req, res) => {
     let { user } = req.body;
-
     bcrypt.genSalt(10, (err, salt) => {
         bcrypt.hash(user.password, salt, async (err, hash) => {
             user.password = hash;
@@ -93,13 +95,52 @@ app.post("/signup", validateUser, async (req, res) => {
             res.redirect("/");
         });
     });
-
 });
 
 app.get("/logout", (req, res) => {
     res.cookie("token", "");
     res.redirect("/");
-})
+});
+
+app.get("/academic/9th", (req, res) => {
+    res.send("This route for 9th");
+});
+
+app.get("/academic/10th", (req, res) => {
+    res.send("This route for 10th");
+});
+
+app.get("/academic/11th", (req, res) => {
+    res.send("This route for 11th");
+});
+
+app.get("/academic/12th", (req, res) => {
+    res.send("This route for 12th");
+});
+
+app.get("/competitive/ssc", (req, res) => {
+    res.send("This route for SSC");
+});
+
+app.get("/competitive/upsc", (req, res) => {
+    res.send("This route for UPSC");
+});
+
+app.get("/competitive/bank", (req, res) => {
+    res.send("This route for BANK");
+});
+
+app.get("/competitive/other", (req, res) => {
+    res.send("This route for OTHER");
+});
+
+app.get("/notes", (req, res) => {
+    res.send("This route for NOTES");
+});
+
+app.get("/services", (req, res) => {
+    res.send("This route for SERVICES");
+});
 
 app.listen("8080", (err, res) => {
     console.log("Server is running on port 8080");

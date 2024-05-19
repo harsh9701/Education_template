@@ -65,7 +65,7 @@
 }
 
 .bgr2 {
-    background-image: url('brooke-cagle-g1Kr4Ozfoac-unsplash.webp');
+    background-image: url('/assets/brooke-cagle-g1Kr4Ozfoac-unsplash.webp');
     /* Replace 'your-image-url.jpg' with the path to your image */
     background-size: cover;
     background-position: center;
@@ -84,7 +84,7 @@ p {
 }
 
 .section-2 {
-    background-image: url('brooke-cagle-g1Kr4Ozfoac-unsplash.webp');
+    background-image: url('/assets/brooke-cagle-g1Kr4Ozfoac-unsplash.webp');
     /* Replace 'your-image-url.jpg' with the path to your image */
     background-size: cover;
     background-position: center;
